@@ -1,7 +1,8 @@
 import time, os
 lista=[]
 #coloque na lista a letra de uma música e o tempo de espera
-#ex: lista=[("letra da música", tempo)]
+#exemplo 1: lista=[("letra da música", tempo)] neste caso, a letra vai ter a duração do tempo
+#exemplo 2: lista=[("a"), 0.5]
 while len(lista)>0:
     os.system('clear')
     #substitua
